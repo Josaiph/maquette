@@ -1,0 +1,33 @@
+@font-face
+{
+    font-family: 'roboto';
+    src: url(/Fonts/Roboto/Roboto-Regular.ttf);
+}
+
+main
+{
+    width:900px;
+    margin:auto;
+    font-family: 'roboto', sans-serif;
+}
+
+header
+{
+    display:flex;
+    justify-content: space-between;
+    height: 75px;
+}
+
+nav
+{
+    height: 75px;
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+nav a
+{
+    text-decoration: none;
+    padding:10px;
+}
