@@ -113,3 +113,42 @@ nav a
 {
     font-size: 0.6em;
 }
+
+footer
+{
+    background-color: rgb(68, 0, 68);
+    color: white;
+    text-align: center;
+    padding:30px;
+    margin-top:40px;
+}
+
+footer #reseaux
+{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+footer #reseaux li a
+{
+    margin : 0 30px;
+    color: rgb(255, 255, 255, 0.5);
+    font-size: 1.5em;
+}
+
+#footer_menu
+{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: left;
+}
+
+
+#footer_menu p
+{
+    color: rgb(255, 255, 255, 0.5);
+}
